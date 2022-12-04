@@ -13,4 +13,4 @@ deposit *= oprocentowanie #tu mamy kapitalizacje odsetek/zysk po drugim roku, po
 deposit *= oprocentowanie #tu mamy kapitalizacje odsetek/zysk po trzecim roku, powiększonym o kapitalizacje po drugim roku
 
 # Finalny zysk z 3 letniej lokaty bankowej
-print("Zysk z 3 letniej lokaty bankowej, wynosi:", round(deposit - inwestowane_srodki ,2), "zl.")
+print("Zysk z 3 letniej lokaty bankowej, wynosi:", round(deposit - inwestowane_srodki ,2), "zl.") # z użyciem zaokrlągenia, do dwóch miejsc po przecinku
