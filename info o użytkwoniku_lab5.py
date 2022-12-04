@@ -1,11 +1,9 @@
 name = "Robert"
 wiek = 35
-city = "Cracow"
+city = "Krakowie"
 
+# 1 sposób
 print(name, str(wiek), city)
 
-
-# spróboiwać zrobić z cncatenacją
-print ("Mam na imię", name +
-print ("Mam" + wiek)
-print("pochodzę z", city + ".")
+# 2 sposób, z użyciem concatenacji:
+print ("Mam na imię:" + str(name) + ", " + "mam:" + str(wiek) + ", " + "mieszkam w:" + str(city) + "." )
