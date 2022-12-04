@@ -1,23 +1,16 @@
-# TEKS ZADAnIA
-#Wyznacz zysk z 3 letniej lokaty bankowej wg założeń:
-#• inwestowane środki 46 567,00 zł (own_funds - tak to można nazwać po angielsku)
-#• stałe oprocentowanie roczne 7.5%
-#• coroczna kapitalizacja odsetek
-#• w obliczeniach zastosuj złożony operator przypisania
-
-
-# Zadanie zrobione przez Pana Marcina
-
+# DANE:
 inwestowane_srodki = 46_567.
 deposit = inwestowane_srodki
 oprocentowanie = 1.075
 
-#inwestowane_srodki = inwestowane_srodki * oprocentowanie
-#inwestowane_srodki = inwestowane_srodki * oprocentowanie
-#inwestowane_srodki = inwestowane_srodki * oprocentowanie
+#inwestowane_srodki = inwestowane_srodki * oprocentowanie --> 1 rok
+#inwestowane_srodki = inwestowane_srodki * oprocentowanie --> 2 rok
+#inwestowane_srodki = inwestowane_srodki * oprocentowanie --> 3 rok
 
-deposit *= oprocentowanie # tu z wykorzystaniem przypisania
-deposit *= oprocentowanie
-deposit *= oprocentowanie
+# obliczenie kapitalizacji odsetek/zysku z użyciem złożonego operatora przypisania
+deposit *= oprocentowanie #tu mamy kapitalizacje odsetek/zysk po pierwszym roku
+deposit *= oprocentowanie #tu mamy kapitalizacje odsetek/zysk po drugim roku, powiększonym o kapitalizacje po pierwszym roku
+deposit *= oprocentowanie #tu mamy kapitalizacje odsetek/zysk po trzecim roku, powiększonym o kapitalizacje po drugim roku
 
-print("Zysk z inwesycji wynosi", round(deposit - inwestowane_srodki ,2), "zl.")
+# Finalny zysk z 3 letniej lokaty bankowej
+print("Zysk z 3 letniej lokaty bankowej, wynosi:", round(deposit - inwestowane_srodki ,2), "zl.")

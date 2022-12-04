@@ -52,30 +52,3 @@ print ("Obwód kwadratu wynosi:", obwod)
  # Długość przekątnej kwadratu, dla boku o długości 19cm
 dlugosc_przekatnej = a * 2 ** .5
 print ("Długość przekątnej kwadratu wynosi:", dlugosc_przekatnej)
-
-
-
-#rozwiazanie od Pana Marcina
-a= 2
-print("Kwadrat o dlugoisci boku rownej", a)
-print(" - obwód", 4 * a)
-print(" pole pow,", a ** 2)
-print(" przek", a * 2 ** .5)
-
-a= 7
-print("Kwadrat o dlugoisci boku rownej", a)
-print(" - obwód", 4 * a)
-print(" pole pow,", a ** 2)
-print(" przek", a * 2 ** .5)
-
-a= 11
-print("Kwadrat o dlugoisci boku rownej", a)
-print(" - obwód", 4 * a)
-print(" pole pow,", a ** 2)
-print(" przek", a * 2 ** .5)
-
-a= 19
-print("Kwadrat o dlugoisci boku rownej", a)
-print(" - obwód", 4 * a)
-print(" pole pow,", a ** 2)
-print(" przek", a * 2 ** .5)
