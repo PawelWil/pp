@@ -102,7 +102,7 @@
 #print(0o777)
 #print(7 * 8 **0 + 7 * 8 ** 1 + 7 * 8 ** 2, "\n")
 
-# liczba 1011 zapisana binarnie
+# liczba 1011 zapisana binarnie :)
 #print(0b1011)
 #print (1 * 2 ** 0 + 1 * 2 ** 1 + 0 * 2 ** 3 + 1 * 2 ** 3, "\n" )
 
