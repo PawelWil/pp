@@ -23,16 +23,18 @@
 #print (4 // 3) # dzielenie całkowite działa na zasadzie zaokreglenia zawsze w dól do najbliższej liczby calkowitej, wytłumaczenie poniżej:
 #print (4 // 3) # 1,3333 i najbliższa liczba do zaokrąglenia to 1, czyli wynik 1
 
-#print(-4//3) # dlatego jest -2, bo po prostu schodzi w dół, a potem zaokrągla do najbliższej liczby, czyli jak poniżej
+# print(-4//3) # dlatego jest -2, bo po prostu schodzi w dół, a potem zaokrągla do najbliższej liczby, czyli jak poniżej
 #print(-4//3) -1,3333, czyli najbliższa liczba to -2
 
 
-# 4.Potęgowanie (**) - potęgowanie zawsze idzie od prawej do lewej strony, czyli w poniższym przypadku liczba 2 jest podniesiona do potęgi 3,
-# czyli mamy wynik: 2*2*2 = 4*2 = 8
+# 4.Potęgowanie (**) - ważne: w potęgowaniu zawsze mamy łączenie od prawej do lewej strony, czyli w poniższym przypadku liczba 2 jest podniesiona do potęgi 3,
+#print(2 ** 2 ** 3) # tu mamy łączenie prawostronne, bo potęgowanie - i odbywa się to tak: wpierw będzie (2 **3), a potem ten wynik będzie potęgowaniem dla liczby 2
+# print(2 ** (2**3))
+# czyli mamy wynik: (2 ** (2*2*2)) =(2 ** 4*2)) = (2** (8)) = 256
 # print(2 ** 3)
 
 # 5.Modulo
-# print(4 % 3) # tu 3 w 4 mieści się raz i mamy resztę 1, dlatego wynik to jeded - modulo to wynik reszty
+#print(4 % 3) # tu 3 w 4 mieści się raz i mamy resztę 1, dlatego wynik to jeded - modulo to wynik reszty
 #print(14 % 3) # 14 / 3 = 4.., 3*4 = 12, 14-12=2
 #print(14 -(3*4)) # to jest rozpisanie operacji modulo
 #print (1 % 2) # tu mamy 1--> ile da się dwójek zmiesic w 1, no 0 dwójek, czyli zostaje nam 1, który jest brany jako wynik. Rozpisujemy: 0*2 =0 -> 1-0 = 1
@@ -46,23 +48,25 @@
 # print(16 % 2 ==0) # tu mamy wynik 0, czyli parzysta
 
 # 6^. PORÓWNANIA w Python:
-#  < 	mniejsze
-#  <= 	mniejsze lub równe
-#  > 	większe
-#  >= 	większe lub równe
-#  == 	równe
-#  != 	różne
-#  <> 	różne
-# Operatory 1-argumentowe, maj najwyzszy priorytet
+ #  < 	mniejsze
+ #  <= 	mniejsze lub równe
+ #  > 	większe
+ #  >= 	większe lub równe
+ #  == 	równe
+ #  != 	różne
+ #  <> 	różne
+
+# 7. Operatory 1-argumentowe, maj najwyzszy priorytet
 #print(-1)
 
-# Łączenie operatorów - wsyztskie maja lewostronne, oprócz operatora potęgowania
-#print (2 +3 -1)# (2+3) -1 --> łączenie lewostronne
+# 8. ŁĄCZEnIE Operatorów:
+ # Łączenie operatorów - wszystkie mają lewostronne łączenie, oprócz operatora potęgowania
+# print (2 +3 -1)# (2+3) -1 --> łączenie lewostronne
 
-#print(2 ** 2 ** 3) # tu mamy łączenie prawodtronne, bo potęgowanie - i odbywa się to tak: wpierw będzie (2 **3), a potem ten wynik będzie potęgowaniem dla liczby 2
+#print(2 ** 2 ** 3) # tu mamy łączenie prawostronne, bo potęgowanie - i odbywa się to tak: wpierw będzie (2 **3), a potem ten wynik będzie potęgowaniem dla liczby 2
 #print(2 ** (2**3))
 
-# 7. Prirytetty operatorów
+# 7. Priorytetty operatorów
 # -, + - jednoargumentowe
 # **
 # *, /, //, %
@@ -71,7 +75,7 @@
 #print (5 - 2 ** 1 ** 2 / 2) # tu mamy wynik zmiennopezcinkowe, bo zwykle dzielenie, zeby dosatć wynik ca lkowity, trza by było użec dzielenie całkowite(opisane powyzej)
 
 #print (5 - 2 ** 1 ** 2 / 2) # kolejność wykonania: 5 - (2 ** (1 ** 2)) / 2) = 4.0
-#print (5 - (2 ** (1 ** 2)) / 2)
+# print (5 - (2 ** (1 ** 2)) / 2) # najpierw potęgowanie=2, potem dzielenie:2/2=1, i teraz odejmowanie: 5-1=4 -->FInALnIE = 4.0
 
 # 8. SYSTEMY LICZBOWE (ZAWSZE idziemy od lewej do Prawej!!)
 
@@ -80,7 +84,7 @@
 #print (7 * 8 ** 0 + 4 * 8 ** 1 )    # wytłumaczenie dlaczego to 39 -- print (7 * 8 ** 0 + 4 * 8 ** 1 )
 
 # liczba dziesiętnba dla systemu osemkowego,  47 --> 47 = 7 jedności i 4 dziesiątki
-#                               7 * 10 ** 0 (bo 10 do potegi 0 to 1) + 4 * 10 ** 1(to są dziesiątki, dlatego do pot ęgi pierwszej, gdy potem są setki, to będziemy miec do potegi 2, potem 1000, czyli potega 3 itd.)
+# 7 * 10 ** 0 (bo 10 do potegi 0 to 1) + 4 * 10 ** 1(to są dziesiątki, dlatego do pot ęgi pierwszej, gdy potem są setki, to będziemy miec do potegi 2, potem 1000, czyli potega 3 itd.)
 
 
 # B. system szesnastkowy: 0,1,2,3,4,5,6,7,8,9, A=10, B=11, C=12, D=13, E=14, F=15 -- print(0xFF) -
