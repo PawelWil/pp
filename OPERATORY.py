@@ -12,13 +12,13 @@
 # print (2 + -3) #przykkład z minusem - to nam da -1
 
 # 2.Operator mnozenia (*)
-# print(2*3)
-# print(2*3.) # to jest wynik typu zmiennoprzecinkowy - jako float, bo jeded z operandów jest typu float, czyli zmiennoprzecinkowy
+# print(2*3) #jak przemnożymy przez siebie dwa operandy całkowite(typ integer, czyli liczba całkowita, w której nie ma nic po przecinku) to wtedy też dostaniemy liczbę całkowitą, typu integer
+# print(2*3.) # to jest wynik typu zmiennoprzecinkowy - (typ float - czyli liczba zmiennoprzecinkowa), bo jeded z operandów jest typu float, czyli zmiennoprzecinkowy
 
-# 3.Operator dzielenia - '/'-dzielenie zwykłe, '//'-dzieleni całkowite(floor-divided, tl. ang dla dzielenie całkowitego)
-# print(4 / 2) # przy dzieleniu zwykłym zawsze dosatniemy zmiennoprzecinkowy wynik
-# print(4 // 2) # ale zeby dostać nie zmiennoprzecinkowy, to trza zastosować dzieleni całkowite (czyli //), ale to tylko gdy mamy dwie liczby całkowite, jak się pojawi chociaż jedna liczba zmiennoprzecinkowa, bedziemy ieli wtedy float=zmiennoprzecinkowe - jak widać poniżej
-# print(4 // 2.)
+# 3.Operator dzielenia - '/'-dzielenie zwykłe (wykorzystujące liczy całkowite=liczby integer), '//'-dzielenie zmiennoprzecinkowe/calkowite(float-divided,wykorzystuące liczby zmiennoprzecinkowe)
+# print(4 / 2) # przy dzieleniu zwykłym zawsze dosatniemy zmiennoprzecinkowy wynik, czyli liczbę typu float
+# print(4 // 2) # ! ale zeby dostać nie zmiennoprzecinkowy, to trza zastosować dzieleni całkowite (czyli //), ale to tylko gdy mamy dwie liczby całkowite, jak się pojawi chociaż jedna liczba zmiennoprzecinkowa, bedziemy mieli wynik w typie float=zmiennoprzecinkowym - jak widać poniżej
+# print(4 // 2.) # tu mamy wynik w typie float, bo jeden z operadndów jest typu float(czyli zmiennoprzecinkowy)
 
 #print (4 // 3) # dzielenie całkowite działa na zasadzie zaokreglenia zawsze w dól do najbliższej liczby calkowitej, wytłumaczenie poniżej:
 #print (4 // 3) # 1,3333 i najbliższa liczba do zaokrąglenia to 1, czyli wynik 1
@@ -27,23 +27,32 @@
 #print(-4//3) -1,3333, czyli najbliższa liczba to -2
 
 
-# 4.Potęgowanie (**)
-# print(3 ** 3)
+# 4.Potęgowanie (**) - potęgowanie zawsze idzie od prawej do lewej strony, czyli w poniższym przypadku liczba 2 jest podniesiona do potęgi 3,
+# czyli mamy wynik: 2*2*2 = 4*2 = 8
+# print(2 ** 3)
 
 # 5.Modulo
-# print(4 % 3) # tu 3 w 4 mieści się raz i mamy resztę 1, dlatego wynik to jededn-  modula to wynik reszty
+# print(4 % 3) # tu 3 w 4 mieści się raz i mamy resztę 1, dlatego wynik to jeded - modulo to wynik reszty
 #print(14 % 3) # 14 / 3 = 4.., 3*4 = 12, 14-12=2
 #print(14 -(3*4)) # to jest rozpisanie operacji modulo
 #print (1 % 2) # tu mamy 1--> ile da się dwójek zmiesic w 1, no 0 dwójek, czyli zostaje nam 1, który jest brany jako wynik. Rozpisujemy: 0*2 =0 -> 1-0 = 1
 #print(7 % 2) # ile dwójek zmieścimy 7, no zmiescimy 3, i zostaje nam 1, bo 3*2=6, czyli wynik jest 1
 
 
-# 6. Sprawdzenie czy liczba jest parzysta
-#print(3 % 2) # jeżeli wynik jest 0 to jest parzysta, jeśli wynik nie jest zero, tzn. że nie jest parzysta
-#print(3 % 2) # tu jak widać jest jeden, czyli nieparzysta
-#print(3%2 ==0) # tu możemy zrobić również za pomocą opearora porówania, nie jst 0 wiec false
-#print(16 % 2) # tu mamy wynik 0, czyli parzysta
+# 6. Sprawdzenie czy liczba jest parzysta, jak nie ma reszty, to parzysta, jak jest reszta to wiadomo, że nieparzysta
+ #czyli reasumując, jeżeli wynik reszty jest 0 to jest liczba parzysta, jeśli wynik jest inny niż zero, to wtedy jest nieparzysta
+# print(3 % 2) # tu jak widać wynik z użycia modulo daję reszte jeden, czyli liczba '3' jest nieparzysta
+# print(3%2 ==0) # tu możemy zrobić również za pomocą opearora porówania, jak jest 0 to: true, jak nie jest zero to: false
+# print(16 % 2 ==0) # tu mamy wynik 0, czyli parzysta
 
+# 6^. PORÓWNANIA w Python:
+#  < 	mniejsze
+#  <= 	mniejsze lub równe
+#  > 	większe
+#  >= 	większe lub równe
+#  == 	równe
+#  != 	różne
+#  <> 	różne
 # Operatory 1-argumentowe, maj najwyzszy priorytet
 #print(-1)
 
