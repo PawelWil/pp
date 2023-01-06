@@ -2,20 +2,20 @@
 # 2+2  # to jest wyrażenie, i tu się nic nie dzieje, nie wyświetla się nic. Zeby się wyswietlilo coś trzeba dać jakąś funkcję, np. trzeba dać print
 
 # a = 2 **3 #można go przypisać do zmiennej np a
-# print(a) # da nam to 8
+# print (a)  # --> da nam to 8, bo przy potęgowaniu idziemy od prawej do lewej, czyli: 2 do potęgi 3, 2 * 2 * 2 = 8
 
 # OPERATORY
 
 # 1.Operator Dodawania i odejmowania
 # print(2+3) # operator dodawania
 
-# print (2+ -3) #przykkład z minusem
+# print (2 + -3) #przykkład z minusem - to nam da -1
 
-# 2.Operator mnoozenia (*)
+# 2.Operator mnozenia (*)
 # print(2*3)
 # print(2*3.) # to jest wynik typu zmiennoprzecinkowy - jako float, bo jeded z operandów jest typu float, czyli zmiennoprzecinkowy
 
-# 3.Operator dzielenia - /-dzielenie zwykłe, //-dzieleni całkowite(floor-divided, tl. ang dla dzielenie całkowitego)
+# 3.Operator dzielenia - '/'-dzielenie zwykłe, '//'-dzieleni całkowite(floor-divided, tl. ang dla dzielenie całkowitego)
 # print(4 / 2) # przy dzieleniu zwykłym zawsze dosatniemy zmiennoprzecinkowy wynik
 # print(4 // 2) # ale zeby dostać nie zmiennoprzecinkowy, to trza zastosować dzieleni całkowite (czyli //), ale to tylko gdy mamy dwie liczby całkowite, jak się pojawi chociaż jedna liczba zmiennoprzecinkowa, bedziemy ieli wtedy float=zmiennoprzecinkowe - jak widać poniżej
 # print(4 // 2.)
