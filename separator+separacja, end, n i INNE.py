@@ -28,3 +28,6 @@
 #powtórzenie znaku razy np.3 i inne kombinacje
 # print("Q" * 3)
 # print ("a"*3, "b" *10, "c" *2)
+
+# ZOKRĄGLANIE liczb, do pewnej ilości miejsc po przecinku
+print( round(2/3 ,), "zl.") # tu liczba została zaokrąglona do 2-giego miejsca po przecinku
