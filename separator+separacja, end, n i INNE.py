@@ -11,14 +11,16 @@
 # print("kota")
 
 
-# opcja nowej lini, za pomocą /n
-#print("A", "B", sep="\n", end=" ")
+# opcja nowej lini, za pomocą \n
+# print("A", "B", sep="\n", end="")
 # print("C", "D", sep="\n", end=" ")
 # print("E", "F", sep="\n", end=" ")
-#print ("Będę uważał na zajęciach z Pythona. \n" * 100)
+
+#Powielenie linii
+# print ("Będę uważał na zajęciach z Pythona. \n" * 100)
 
 #Tabulacja
-# print("\tabc", "\tabc")
+# print("\t\tabc", "\t\t\tabc")
 
 #nowa linia
 # print("\n\nabc\nghj")
