@@ -12,7 +12,7 @@
 # print (2 + -3) #przykkład z minusem - to nam da -1
 
 # 2.Operator mnozenia (*)
-# print(2*3) #jak przemnożymy przez siebie dwa operandy całkowite(typ integer, czyli liczba całkowita, w której nie ma nic po przecinku) to wtedy też dostaniemy liczbę całkowitą, typu integer
+print(2*3) #jak przemnożymy przez siebie dwa operandy całkowite(typ integer, czyli liczba całkowita, w której nie ma nic po przecinku) to wtedy też dostaniemy liczbę całkowitą, typu integer
 # print(2*3.) # to jest wynik typu zmiennoprzecinkowy - (typ float - czyli liczba zmiennoprzecinkowa), bo jeded z operandów jest typu float, czyli zmiennoprzecinkowy
 
 # 3.Operator dzielenia - '/'-dzielenie zwykłe (wykorzystujące liczy całkowite=liczby integer), '//'-dzielenie zmiennoprzecinkowe/calkowite(float-divided,wykorzystuące liczby zmiennoprzecinkowe)

@@ -34,5 +34,27 @@
  # • pokazać salda po każdym kwartale,
  # • wyliczyć roczny zysk.
 
+inwestowane_srodki = 30_000. # własne inwestowane środki
+deposit = inwestowane_srodki
+oprocentowanie = 1.075
+
+deposit = deposit * oprocentowanie
+print("Zysk z 3-miesięcznej lokaty bankowej, po I Kwartale, wynosi:", (deposit-inwestowane_srodki)/12 * 3, "zl.\n")
+
+deposit = deposit * oprocentowanie
+print("Zysk z 3-miesięcznej lokaty bankowej, po II kwartale, wynosi:", (deposit - inwestowane_srodki) /12 * 3, "zl.\n")
+
+deposit = ((deposit * oprocentowanie))
+print("Zysk z 3-miesięcznej lokaty bankowej, po III kwartale, wynosi:", (((deposit - 30_000) /12)*3), "zl.\n")
+
+deposit = ((deposit * oprocentowanie))
+print("Zysk z 3-miesięcznej lokaty bankowej, po IV kwartale wynosi:", (((deposit - 30_000) /12)*3), "zl.\n")
+
+print ('Roczny zysk wynosi:', (((deposit - 30_000) /12)*3), "zl.\n")
+
+
+
+
+
 
 
