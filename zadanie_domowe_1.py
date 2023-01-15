@@ -46,16 +46,16 @@ oprocentowanie = 0.075 #oprocentowanie w skali roku
 oprocentowanie_kwartalne = oprocentowanie / 4
 
 deposit = deposit * (1 + oprocentowanie_kwartalne)
-print("Zysk z 1-rocznej lokaty bankowej, po I Kwartale, wynosi:", (deposit-inwestowane_srodki), "zl.")
+print("Saldo konta z 1-rocznej lokaty bankowej, po I Kwartale, wynosi:", (deposit-inwestowane_srodki), "zl.")
 
 deposit = deposit * (1 + oprocentowanie_kwartalne)
-print("Zysk z 1-rocznej lokaty bankowej, po II kwartale, wynosi:", (deposit - inwestowane_srodki), "zl.")
+print("Saldo konta z 1-rocznej lokaty bankowej, po II kwartale, wynosi:", (deposit - inwestowane_srodki), "zl.")
 
 deposit = deposit * (1 + oprocentowanie_kwartalne)
-print("Zysk z 1-rocznej lokaty bankowej, po III kwartale, wynosi:", (deposit - inwestowane_srodki), "zl.")
+print("Saldo konta z 1-rocznej lokaty bankowej, po III kwartale, wynosi:", (deposit - inwestowane_srodki), "zl.")
 
 deposit = deposit * (1 + oprocentowanie_kwartalne)
-print("Zysk z 1-rocznej lokaty bankowej, po IV kwartale wynosi:", (deposit - inwestowane_srodki), "zl.")
+print("Saldo konta z 1-rocznej lokaty bankowej, po IV kwartale wynosi:", (deposit - inwestowane_srodki), "zl.")
 
 print ('Roczny zysk wynosi:', (deposit - inwestowane_srodki), "zl.\n")
 
@@ -69,16 +69,16 @@ oprocentowanie = 0.080 #oprocentowanie w skali roku
 oprocentowanie_kwartalne = oprocentowanie / 4
 
 deposit = deposit * (1 + oprocentowanie_kwartalne)
-print("Zysk z 1-rocznej lokaty bankowej, po I Kwartale, wynosi:", (deposit-inwestowane_srodki), "zl.")
+print("Saldo konta z 1-rocznej lokaty bankowej, po I Kwartale, wynosi:", (deposit-inwestowane_srodki), "zl.")
 
 deposit = deposit * (1 + oprocentowanie_kwartalne)
-print("Zysk z 1-rocznej lokaty bankowej, po II kwartale, wynosi:", (deposit - inwestowane_srodki), "zl.")
+print("Saldo konta z 1-rocznej lokaty bankowej, po II kwartale, wynosi:", (deposit - inwestowane_srodki), "zl.")
 
 deposit = deposit * (1 + oprocentowanie_kwartalne)
-print("Zysk z 1-rocznej lokaty bankowej, po III kwartale, wynosi:", (deposit - inwestowane_srodki), "zl.")
+print("Saldo konta z 1-rocznej lokaty bankowej, po III kwartale, wynosi:", (deposit - inwestowane_srodki), "zl.")
 
 deposit = deposit * (1 + oprocentowanie_kwartalne)
-print("Zysk z 1-rocznej lokaty bankowej, po IV kwartale wynosi:", (deposit - inwestowane_srodki), "zl.")
+print("Saldo konta z 1-rocznej lokaty bankowej, po IV kwartale wynosi:", (deposit - inwestowane_srodki), "zl.")
 
 print ('Roczny zysk wynosi:', (deposit - inwestowane_srodki), "zl.\n")
 
@@ -93,16 +93,16 @@ oprocentowanie = 0.0825 #oprocentowanie w skali roku
 oprocentowanie_kwartalne = oprocentowanie / 4
 
 deposit = deposit * (1 + oprocentowanie_kwartalne)
-print("Zysk z 1-rocznej lokaty bankowej, po I Kwartale, wynosi:", (deposit-inwestowane_srodki), "zl.")
+print("Saldo konta z 1-rocznej lokaty bankowej, po I Kwartale, wynosi:", (deposit-inwestowane_srodki), "zl.")
 
 deposit = deposit * (1 + oprocentowanie_kwartalne)
-print("Zysk z 1-rocznej lokaty bankowej, po II kwartale, wynosi:", (deposit - inwestowane_srodki), "zl.")
+print("Saldo konta z 1-rocznej lokaty bankowej, po II kwartale, wynosi:", (deposit - inwestowane_srodki), "zl.")
 
 deposit = deposit * (1 + oprocentowanie_kwartalne)
-print("Zysk z 1-rocznej lokaty bankowej, po III kwartale, wynosi:", (deposit - inwestowane_srodki), "zl.")
+print("Saldo konta z 1-rocznej lokaty bankowej, po III kwartale, wynosi:", (deposit - inwestowane_srodki), "zl.")
 
 deposit = deposit * (1 + oprocentowanie_kwartalne)
-print("Zysk z 1-rocznej lokaty bankowej, po IV kwartale wynosi:", (deposit - inwestowane_srodki), "zl.")
+print("Saldo konta z 1-rocznej lokaty bankowej, po IV kwartale wynosi:", (deposit - inwestowane_srodki), "zl.")
 
 print ('Roczny zysk wynosi:', (deposit - inwestowane_srodki), "zl.\n")
 
