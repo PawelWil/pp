@@ -1,5 +1,5 @@
 # ZADANIE 1
- # Wyświetl na ekranie następujący wzór:
+ # Wyświetl na ekranie następujący wzór :
 
 # print("      *        *")
 # print("      **      **")
