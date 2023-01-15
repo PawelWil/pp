@@ -17,8 +17,8 @@
  # danych z sieci o rozmiarze 13 TB, jeżeli wiesz, że plik o rozmiarze 194 MB
  # udało się pobrać w 5 sekund. Wynik zaokrąglij do pełnych godzin.
 
-# * 1 terabajt[TB] = 1_000_000 megabajtów[MB]
-# a = 13_000_000
+# * 1 terabajt[TB] = 1_000_000 megabajtów[MB] //=1024 * 1024
+# a = 13_000_000 #13 * 1024 * 1024
 # b = 194
 # print (round((a / b) * 5) / 3600)
 # print(round(((((a / b) * 5) / 3600)), 0))
@@ -33,24 +33,29 @@
  # • oprocentowanie roczne dla 3 wariantów: 7,5%, 8% oraz 8,25%,
  # • pokazać salda po każdym kwartale,
  # • wyliczyć roczny zysk.
+ 
+ # najlepiej użyć wzoru na procent składany: https://www.matemaks.pl/procent-skladany-kapitalizacja-odsetek.html
+ # wtedy deposit(k) = deposit * (1 + oprocentowanie_kwartalne) ^ k 
+ # ale można też tak jak zrobiłeś bez wzoru - też prawie poprawnie :)
 
 inwestowane_srodki = 30_000. # własne inwestowane środki
 deposit = inwestowane_srodki
-oprocentowanie = 1.075
+oprocentowanie = 0.075 // w skali roku - poprawione :)
+oprocentowanie_kwartalne = oprocentowanie / 4 
 
-deposit = deposit * oprocentowanie
-print("Zysk z 3-miesięcznej lokaty bankowej, po I Kwartale, wynosi:", (deposit-inwestowane_srodki)/12 * 3, "zl.\n")
+deposit = deposit * (1 + oprocentowanie_kwartalne)
+print("Zysk z 1-rocznej lokaty bankowej, po I Kwartale, wynosi:", (deposit-inwestowane_srodki), "zl.\n")
 
-deposit = deposit * oprocentowanie
-print("Zysk z 3-miesięcznej lokaty bankowej, po II kwartale, wynosi:", (deposit - inwestowane_srodki) /12 * 3, "zl.\n")
+deposit = deposit * (1 + oprocentowanie_kwartalne)
+print("Zysk z 1-rocznej lokaty bankowej, po II kwartale, wynosi:", (deposit - inwestowane_srodki), "zl.\n")
 
-deposit = ((deposit * oprocentowanie))
-print("Zysk z 3-miesięcznej lokaty bankowej, po III kwartale, wynosi:", (((deposit - 30_000) /12)*3), "zl.\n")
+deposit = deposit * (1 + oprocentowanie_kwartalne)
+print("Zysk z 1-rocznej lokaty bankowej, po III kwartale, wynosi:", (deposit - inwestowane_srodki), "zl.\n")
 
-deposit = ((deposit * oprocentowanie))
-print("Zysk z 3-miesięcznej lokaty bankowej, po IV kwartale wynosi:", (((deposit - 30_000) /12)*3), "zl.\n")
+deposit = deposit * (1 + oprocentowanie_kwartalne)
+print("Zysk z 1-rocznej lokaty bankowej, po IV kwartale wynosi:", (deposit - inwestowane_srodki), "zl.\n")
 
-print ('Roczny zysk wynosi:', (((deposit - 30_000) /12)*3), "zl.\n")
+print ('Roczny zysk wynosi:', (deposit - inwestowane_srodki), "zl.\n")
 
 
 
