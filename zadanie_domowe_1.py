@@ -1,5 +1,5 @@
 # ZADANIE 1
- # Wyświetl na ekranie następujący wzór :
+ # Wyświetl na ekranie następujący wzór:
 
 # print("      *        *")
 # print("      **      **")
@@ -10,7 +10,7 @@
 # print("      ***    ***")
 # print("      **      **")
 # print("      *        *")
-
+# test
 
 # ZADANIE 2
  # Napisz skrypt pomagający oszacować ile godzin potrzeba na pobranie
