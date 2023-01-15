@@ -22,7 +22,7 @@ print ("ZADANIE 2")
 _terabajt = 1024*1024
 a = _terabajt * 13
 b = 194
-print("Na pobranie danych z sieci o rozmiarze 13TB, potrzeba godzin:", round(((((a / b) * 5) / 3600)), 0))
+print("Na pobranie danych z sieci o rozmiarze 13TB, potrzeba:", round(((((a / b) * 5) / 3600)), 0), "godzin.")
 print("\n")
 
 
@@ -36,8 +36,8 @@ print("\n")
  # • pokazać salda po każdym kwartale,
  # • wyliczyć roczny zysk.
 
-
-  #--------- A. KALKULACJA DLA OPROCENTOWANIA ROCZNEGO: 7,5%
+print ("ZADANIE 3")
+#--------- A. KALKULACJA DLA OPROCENTOWANIA ROCZNEGO: 7,5%
 
 print("A. KALKULACJA DLA OPROCENTOWANIA ROCZNEGO: 7,5%")
 inwestowane_srodki = 30_000. # własne inwestowane środki
