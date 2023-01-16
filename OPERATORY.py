@@ -2,7 +2,7 @@
 # 2+2  # to jest wyrażenie, i tu się nic nie dzieje, nie wyświetla się nic. Zeby się wyswietlilo coś trzeba dać jakąś funkcję, np. trzeba dać print
 
 # a = 2 **3 #można go przypisać do zmiennej np a
-# print (a)  # --> da nam to 8, bo przy potęgowaniu idziemy od prawej do lewej, czyli: 2 do potęgi 3, 2 * 2 * 2 = 8
+# print (a)  # --> da nam to 8, czyli: 2 do potęgi 3, 2 * 2 * 2 = 8
 
 # OPERATORY
 
@@ -12,15 +12,15 @@
 # print (2 + -3) #przykkład z minusem - to nam da -1
 
 # 2.Operator mnozenia (*)
-print(2*3) #jak przemnożymy przez siebie dwa operandy całkowite(typ integer, czyli liczba całkowita, w której nie ma nic po przecinku) to wtedy też dostaniemy liczbę całkowitą, typu integer
+# print(2*3) #jak przemnożymy przez siebie dwa operandy całkowite(typ integer, czyli liczba całkowita, w której nie ma nic po przecinku) to wtedy też dostaniemy liczbę całkowitą, typu integer
 # print(2*3.) # to jest wynik typu zmiennoprzecinkowy - (typ float - czyli liczba zmiennoprzecinkowa), bo jeded z operandów jest typu float, czyli zmiennoprzecinkowy
 
 # 3.Operator dzielenia - '/'-dzielenie zwykłe (wykorzystujące liczy całkowite=liczby integer), '//'-dzielenie zmiennoprzecinkowe/calkowite(float-divided,wykorzystuące liczby zmiennoprzecinkowe)
 # print(4 / 2) # przy dzieleniu zwykłym zawsze dosatniemy zmiennoprzecinkowy wynik, czyli liczbę typu float
 # print(4 // 2) # ! ale zeby dostać nie zmiennoprzecinkowy, to trza zastosować dzieleni całkowite (czyli //), ale to tylko gdy mamy dwie liczby całkowite, jak się pojawi chociaż jedna liczba zmiennoprzecinkowa, bedziemy mieli wynik w typie float=zmiennoprzecinkowym - jak widać poniżej
-# print(4 // 2.) # tu mamy wynik w typie float, bo jeden z operadndów jest typu float(czyli zmiennoprzecinkowy)
+# print(4 // 2.) # tu mamy wynik w typie float, bo jeden z operandów jest typu float(czyli zmiennoprzecinkowy)
 
-#print (4 // 3) # dzielenie całkowite działa na zasadzie zaokreglenia zawsze w dól do najbliższej liczby calkowitej, wytłumaczenie poniżej:
+# print (4 // 3) # dzielenie całkowite działa na zasadzie zaokreglenia zawsze w dól do najbliższej liczby calkowitej, wytłumaczenie poniżej:
 #print (4 // 3) # 1,3333 i najbliższa liczba do zaokrąglenia to 1, czyli wynik 1
 
 # print(-4//3) # dlatego jest -2, bo po prostu schodzi w dół, a potem zaokrągla do najbliższej liczby, czyli jak poniżej
@@ -35,8 +35,8 @@ print(2*3) #jak przemnożymy przez siebie dwa operandy całkowite(typ integer, c
 
 # 5.Modulo
 #print(4 % 3) # tu 3 w 4 mieści się raz i mamy resztę 1, dlatego wynik to jeded - modulo to wynik reszty
-#print(14 % 3) # 14 / 3 = 4.., 3*4 = 12, 14-12=2
-#print(14 -(3*4)) # to jest rozpisanie operacji modulo
+# print(14 % 3) # 14 / 3 = 4.., 3*4 = 12, 14-12=2
+# print(14 -(3*4)) # to jest rozpisanie operacji modulo
 #print (1 % 2) # tu mamy 1--> ile da się dwójek zmiesic w 1, no 0 dwójek, czyli zostaje nam 1, który jest brany jako wynik. Rozpisujemy: 0*2 =0 -> 1-0 = 1
 #print(7 % 2) # ile dwójek zmieścimy 7, no zmiescimy 3, i zostaje nam 1, bo 3*2=6, czyli wynik jest 1
 
@@ -56,7 +56,7 @@ print(2*3) #jak przemnożymy przez siebie dwa operandy całkowite(typ integer, c
  #  != 	różne
  #  <> 	różne
 
-# 7. Operatory 1-argumentowe, maj najwyzszy priorytet
+# 7. Operatory 1-argumentowe, mają najwyzszy priorytet
 #print(-1)
 
 # 8. ŁĄCZEnIE Operatorów:

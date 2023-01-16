@@ -44,17 +44,18 @@ inwestowane_srodki = 30_000. # własne inwestowane środki
 deposit = inwestowane_srodki
 oprocentowanie = 0.075 #oprocentowanie w skali roku
 oprocentowanie_kwartalne = oprocentowanie / 4
+mnoznik_kwartalny = 1 + oprocentowanie_kwartalne
 
-deposit = deposit * (1 + oprocentowanie_kwartalne)
+deposit = deposit * (mnoznik_kwartalny)
 print("Saldo konta z 1-rocznej lokaty bankowej, po I Kwartale, wynosi:", (deposit-inwestowane_srodki), "zl.")
 
-deposit = deposit * (1 + oprocentowanie_kwartalne)
+deposit = deposit * (mnoznik_kwartalny)
 print("Saldo konta z 1-rocznej lokaty bankowej, po II kwartale, wynosi:", (deposit - inwestowane_srodki), "zl.")
 
-deposit = deposit * (1 + oprocentowanie_kwartalne)
+deposit = deposit * (mnoznik_kwartalny)
 print("Saldo konta z 1-rocznej lokaty bankowej, po III kwartale, wynosi:", (deposit - inwestowane_srodki), "zl.")
 
-deposit = deposit * (1 + oprocentowanie_kwartalne)
+deposit = deposit * (mnoznik_kwartalny)
 print("Saldo konta z 1-rocznej lokaty bankowej, po IV kwartale wynosi:", (deposit - inwestowane_srodki), "zl.")
 
 print ('Roczny zysk wynosi:', (deposit - inwestowane_srodki), "zl.\n")
@@ -67,17 +68,18 @@ inwestowane_srodki = 30_000. # własne inwestowane środki
 deposit = inwestowane_srodki
 oprocentowanie = 0.080 #oprocentowanie w skali roku
 oprocentowanie_kwartalne = oprocentowanie / 4
+mnoznik_kwartalny = 1 + oprocentowanie_kwartalne
 
-deposit = deposit * (1 + oprocentowanie_kwartalne)
+deposit = deposit * (mnoznik_kwartalny)
 print("Saldo konta z 1-rocznej lokaty bankowej, po I Kwartale, wynosi:", (deposit-inwestowane_srodki), "zl.")
 
-deposit = deposit * (1 + oprocentowanie_kwartalne)
+deposit = deposit * (mnoznik_kwartalny)
 print("Saldo konta z 1-rocznej lokaty bankowej, po II kwartale, wynosi:", (deposit - inwestowane_srodki), "zl.")
 
-deposit = deposit * (1 + oprocentowanie_kwartalne)
+deposit = deposit * (mnoznik_kwartalny)
 print("Saldo konta z 1-rocznej lokaty bankowej, po III kwartale, wynosi:", (deposit - inwestowane_srodki), "zl.")
 
-deposit = deposit * (1 + oprocentowanie_kwartalne)
+deposit = deposit * (mnoznik_kwartalny)
 print("Saldo konta z 1-rocznej lokaty bankowej, po IV kwartale wynosi:", (deposit - inwestowane_srodki), "zl.")
 
 print ('Roczny zysk wynosi:', (deposit - inwestowane_srodki), "zl.\n")
@@ -91,17 +93,18 @@ inwestowane_srodki = 30_000. # własne inwestowane środki
 deposit = inwestowane_srodki
 oprocentowanie = 0.0825 #oprocentowanie w skali roku
 oprocentowanie_kwartalne = oprocentowanie / 4
+mnoznik_kwartalny = 1 + oprocentowanie_kwartalne
 
-deposit = deposit * (1 + oprocentowanie_kwartalne)
+deposit = deposit * (mnoznik_kwartalny)
 print("Saldo konta z 1-rocznej lokaty bankowej, po I Kwartale, wynosi:", (deposit-inwestowane_srodki), "zl.")
 
-deposit = deposit * (1 + oprocentowanie_kwartalne)
+deposit = deposit * (mnoznik_kwartalny)
 print("Saldo konta z 1-rocznej lokaty bankowej, po II kwartale, wynosi:", (deposit - inwestowane_srodki), "zl.")
 
-deposit = deposit * (1 + oprocentowanie_kwartalne)
+deposit = deposit * (mnoznik_kwartalny)
 print("Saldo konta z 1-rocznej lokaty bankowej, po III kwartale, wynosi:", (deposit - inwestowane_srodki), "zl.")
 
-deposit = deposit * (1 + oprocentowanie_kwartalne)
+deposit = deposit * (mnoznik_kwartalny)
 print("Saldo konta z 1-rocznej lokaty bankowej, po IV kwartale wynosi:", (deposit - inwestowane_srodki), "zl.")
 
 print ('Roczny zysk wynosi:', (deposit - inwestowane_srodki), "zl.\n")

@@ -6,8 +6,8 @@
 #print(8+2)
 #print(1_000_000) # to pokazuje w łatwiejszy spób dużą liczbę - latwiej widoczna
 #print(-2) #liczba z operatorem
-#print(type(2)) # to mowi nam jakiego typu jest ten znak - tu integer
-#print(type("asd")) # to mowi nam jakiego typu jest ten znak - tu string
+# print(type(2)) # to mowi nam jakiego typu jest ten znak - tu integer
+# print(type("asd")) # to mowi nam jakiego typu jest ten znak - tu string
 
 
 # SYSTEMY LICZBOWE (ZAWSZE idziemy od Prawej do Lewej - i zawsze potęga '0' zaczyna się od lewej strony. cd.*
@@ -87,15 +87,15 @@
 #print("") # to jest pusty ciąg znaków
 #print ("I'm Monty Python")
 
-#print ('><', '>\t<', '>\t\t\t<')
+# print ('><', '>\t<', '>\t\t\t<')
 #print ('><', '>\t<', '>\t\t\t<', sep="\n")
 
 
 
 # WARTOŚCI Logiczne BOOL (tzw. wartości boolowskie)
 
-#print(False)
-#print(type(False))
+# print(False)
+# print(type(False))
 # print(type(2>3)) # to pokazuje typ tego zapisu = wartość boolowska.(wiadomo, że False, bo 2 nie jest większe od 3)
 # print(2>3) # to jest zapisane w wartości boolowskiej i pokazuje, czy ten zapis jest true, czy false--wiadomo, ze false bo 2 nie jest większe od 3
 
