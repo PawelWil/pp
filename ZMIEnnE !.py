@@ -3,7 +3,7 @@
 # łącze je za pomocą podkreślników + nie mogą być za długie !!
 
 # 1. NAZWY ZMIENNYCH
-# zmienne piszemy zawsze malymi literami + pomiędzy dwoma słowami zmiennej zawsze dajemy '_' +
+# zmienne piszemy zawsze malymi literami + pomiędzy dwoma słowami zmiennej zawsze dajemy podkreślink _
 
 #var = 1 # to jest zmienna o nazwie var, ktra ma wartość 1
 #print(var) # tu wyswietlamy warość zmiennej var
@@ -23,11 +23,13 @@
 
 # 2. Dynamiczne typowanie -- jak się to stosuje to poprzednia wartość po prostu jest zastąpiona tą ostatnią, czyli w poniższym przypadku ostatnią wartością, która się wyswietli to kokarda
 
-# jak widać dodaliśmy do zmiennej 'a' liczbę(int) + słowo(string) i powinna się wyświtlić kokarda, bo nadpisała 4
+# jak widać dodaliśmy do zmiennej 'a' liczbę(int) + słowo(string) i powinna się wyświeelić kokarda, bo została dodana jako ostatnia i nadpisała 4
 # a = 4
 # print(a)
 # a ="kokarda"
 # print(a)
+# print (a + str(1000)) # i tu mamy 'kokarda1000", a nie '41000' bo liczba 4 dynamicznie została nadpisana słowem kokarda
+
 
 # 3. Złożone operatory przypisania
 

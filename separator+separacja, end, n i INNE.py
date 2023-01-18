@@ -30,4 +30,5 @@
 # print ("a"*3, "b" *10, "c" *2)
 
 # ZOKRĄGLANIE liczb, do pewnej ilości miejsc po przecinku
-print( round(2/3 ,), "zl.") # tu liczba została zaokrąglona do 2-giego miejsca po przecinku
+# print( round(2/3 ,), "zl.") # tu liczba została zaokrąglona do 2-giego miejsca po przecinku
+# print(round((((1000.998 - 1500) * 1.1232)), 3)) # tu mamy zaokrąglenie do 3 cyfr po przecinku
