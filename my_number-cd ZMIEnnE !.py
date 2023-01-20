@@ -8,4 +8,4 @@ number = 12 #przerobimy powyższy kod, żeby szybko zminić cyfrę na inną, bez
 # print ("nasza liczba to: " + str(number) + ".")
 print ("nasza" + "liczba to: " + str(number) + ".", sep = "\n") #sep nie działa przy konkatenacji
 # print("liczba" + str(number) + "jest o" + str(number - 8) +  "większa od 8")
-# print("Jeżeli pomnożymy naszą liczbę przez 5 to otrzymamy" + str(number * 5) + ".")
+print("Jeżeli pomnożymy naszą liczbę przez 5 to otrzymamy " + str(number * 5) + ".")

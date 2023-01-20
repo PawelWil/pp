@@ -2,7 +2,7 @@
 # print("raz", "dwa", "trzy", sep="-")
 # print("raz", 2, "trzy", sep="-")
 # print("raz", "dwa", "trzy", sep=" ")
-# print ("ma", "ka", "ron", sep="", end="*") #tu mamy bez separatora
+# print ("ma", "ka", "ron", sep="-", end="*") #tu mamy separator - oraz na koncu *
 # print ("\nma", "ka", "ron", sep="*", end="") #tu mamy separator w postaci *  i dodatkowo jak chcemy żeby to było poniżej tego zdania powyżej, musimy na początku dać backslash \n
 
 #parametr end
@@ -30,5 +30,6 @@
 # print ("a"*3, "b" *10, "c" *2)
 
 # ZOKRĄGLANIE liczb, do pewnej ilości miejsc po przecinku
-# print( round(2/3 ,), "zl.") # tu liczba została zaokrąglona do 2-giego miejsca po przecinku
+# print( round(2/3 ,2), "zl.") # tu liczba została zaokrąglona do 2-giego miejsca po przecinku
+# print (round (2/3, ),"zl") # tu liczba została zaokrąglona do zerowego miejsca po przecinku, czyli zrównało do 1
 # print(round((((1000.998 - 1500) * 1.1232)), 3)) # tu mamy zaokrąglenie do 3 cyfr po przecinku

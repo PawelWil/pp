@@ -28,7 +28,7 @@
 # ZADAnIE z Laboratorium 4 zapisu liczb w różnych systemach
 
 # liczba 777 zapisana ósemkowo
-#print(0o777)
+# print(0o777)
 # print(7 * 8 **0 + 7 * 8 **1 + 7 * 8 **2, "\n")
 
 # liczba 1011 zapisana binarnie
@@ -42,7 +42,7 @@
 # lizba 123 zapisana piątkowo ( i tu podstawą jest 5, bo mamy tą liczbę pokazać w systemie piątkowym)
 #print(3 * 5 ** 0 + 2 * 5 **1 + 1 * 5 ** 2, "\n")
 
-# Liczba expotencjalna 'e' - w tym przypadku typ liczy jest dziesiętny, rodzaj float
+# Liczba expotencjalna 'e' - w tym przypadku typ liczby jest dziesiętny, rodzaj float
 #print(5e3)  # 5* 10 ** 3 = 5000  (jak mamy to "e" to zawsze dajemy coś do  expotencjalny, czyli 10 do potęgi tej liczby, która za nim stoi)
 #print(5e-3)  # 5* 10 ** -3 = 0.005
 
@@ -66,11 +66,11 @@
 #print(99.)
 
 
-# Liczba expotencjalna 'e' - w tym przypadku typ liczy jest dziesiętny
+# Liczba expotencjalna 'e' - w tym przypadku typ liczby jest dziesiętny i zawsze float
 # print(5e3)  # 5* 10 **3 = 5000  (jak mamy to "e" to zawsze dajemy coś do  expotencjalny, czyli 10 do potęgi tej liczby, która za nim stoi)
 # print(type(5e3))
-# #print(5e-3)  # 5* 10 ** -3 = 0.005
-# print(type(1e10)) #jaki typ liczby
+# print(5e-3)  # 5* 10 ** -3 = 0.005
+# print(type(1e10)) #to jest typ liczby 'float'
 
 # Zadanie 2 z Laboratorium 3 - określić typy literałów
 # print (type("100.5"))
